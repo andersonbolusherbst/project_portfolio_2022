@@ -39,7 +39,7 @@ if option == "Machine Learning":
 if st.button('Run Me'):
   @st.cache(allow_output_mutation=True)
   def load_data():
-    a = pd.read_csv("dog_data.csv")
+    a = pd.read_csv("dog_data.csv", index=)
     return a
   df = load_data()
   st.dataframe(df)
