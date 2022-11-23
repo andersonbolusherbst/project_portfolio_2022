@@ -61,18 +61,22 @@ if option == "Machine Learning":
   col4, col5 = st.columns([1,1])
 
   with col4:
-    st.image("XGBoost.png")
+    st.subheader("XGBoost Model Results")
+    st.image("XGBoost.png", width = 500)
 
   with col5:
-    st.image("Decision_Tree.png")
+    st.subheader("Decision Tree Results")
+    st.image("Decision_Tree.png" width = 500)
   
   st.write("---------")
   
   st.markdown("<h2 style='text-align: center; color: black;'>Challenges</h2>", unsafe_allow_html=True)  
   
   st.write("---------")
+  
+  st.markdown("<h2 style='text-align: center; color: black;'>Video Walkthrough</h2>", unsafe_allow_html=True) 
 
-    
+  st.write("---------")  
   
   
  
