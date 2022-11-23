@@ -27,7 +27,7 @@ if option == "Home":
 #if option == "Data Infrastructure:
   
 if option == "Machine Learning":
-  st.markdown("<h1 style='text-align: center; color: black;'>PetTech Company</h1>", unsafe_allow_html=True)
+  st.markdown("<h2 style='text-align: center; color: black;'>PetTech Company</h2>", unsafe_allow_html=True)
   st.write("")
   st.markdown("<h6 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h6>", unsafe_allow_html=True)
   st.write("")
@@ -61,7 +61,7 @@ if option == "Machine Learning":
   col4, col5 = st.columns([1,1])
 
   with col4:
-    st.image("XGboost.png")
+    st.image("XGBoost.png")
 
   with col2:
     st.image("Decision_Tree.png")
