@@ -29,19 +29,19 @@ if option == "Home":
 if option == "Machine Learning":
   st.markdown("<h1 style='text-align: center; color: black;'>PetTech Company</h1>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h5 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h5>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h6>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h5 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long).</h5>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long).</h6>", unsafe_allow_html=True)
   
   st.write("---------")
   
-  st.markdown("<h2 style='text-align: center; color: black;'>Data Gathering</h2>", unsafe_allow_html=True)
+  st.markdown("<h2 style='text-align: center; color: black;'>Data Gathering and Cleaning</h2>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h5 style='text-align: left; color: black;'>A crucial part of any Machine Laerning Project is data.</h5>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: left; color: black;'>A crucial part of any Machine Laerning Project is data.</h6>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h5 style='text-align: left; color: black;'>In this example we were able to obtain a publically available dataset (see link to paper). We went through the appropriate data cleaning methodology and arrived at our dataframe which you can see below.</h5>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: left; color: black;'>In this example we were able to obtain a publically available dataset (see link to paper). We went through the appropriate data cleaning methodology and arrived at our dataframe which you can see below.</h6>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h5 style='text-align: left; color: black;'>We now had data with which to classify a dog into one of six positions (Sitting, Walking, Standing, Running, Lying down and Eating and drinking).</h5>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: left; color: black;'>We now had data with which to classify a dog into one of six positions (Sitting, Walking, Standing, Running, Lying down and Eating and drinking).</h6>", unsafe_allow_html=True)
   
   if st.button('Run Me and Explore Our Labelled Data Set'):
     @st.cache(allow_output_mutation=True)
@@ -50,6 +50,27 @@ if option == "Machine Learning":
       return a
     df = load_data()
     st.dataframe(df)
+    
+  st.markdown("<h2 style='text-align: center; color: black;'>Model Selection</h2>", unsafe_allow_html=True)
+  
+  st.write("---------")
+  
+  
+  st.markdown("<h2 style='text-align: center; color: black;'>Model Outcomes</h2>", unsafe_allow_html=True)
+  
+  col4, col5 = st.columns([1,1])
+
+  with col4:
+    st.image("XGboost.png)
+
+  with col2:
+    st.image("Decision_Tree.png")
+  
+  st.write("---------")
+  
+  st.markdown("<h2 style='text-align: center; color: black;'>Challenges</h2>", unsafe_allow_html=True)  
+  
+  st.write("---------")
 
     
   
