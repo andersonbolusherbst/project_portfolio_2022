@@ -32,9 +32,9 @@ if option == "Home":
 if option == "Machine Learning":
   st.markdown("<h1 style='text-align: center; color: black;'>PetTech Company</h1>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h4 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h4>", unsafe_allow_html=True)
+  st.markdown("<h5 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h5>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h4 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long) .</h4>", unsafe_allow_html=True)
+  st.markdown("<h5 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long) .</h5>", unsafe_allow_html=True)
   
 
   col1, col2, col3 = st.columns([1,1,1])
@@ -49,10 +49,11 @@ if option == "Machine Learning":
      a = pd.read_csv("dog_data (1).csv")
      return a
     df = load_data()
-    st.dataframe(df)
-
+  
   with col3:
-   st.write("") 
+   st.write("")
+  
+  st.dataframe(df)
   
 
   
