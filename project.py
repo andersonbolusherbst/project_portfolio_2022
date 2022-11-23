@@ -58,15 +58,12 @@ if option == "Machine Learning":
   
   st.markdown("<h2 style='text-align: center; color: black;'>Model Outcomes</h2>", unsafe_allow_html=True)
   
-  col4, col5 = st.columns([1,1])
+  st.subheader("XGBoost Model Results")
+  st.image("XGBoost.png", width = 800)
 
-  with col4:
-    st.subheader("XGBoost Model Results")
-    st.image("XGBoost.png", width = 700)
-
-  with col5:
-    st.subheader("Decision Tree Results")
-    st.image("Decision_Tree.png", width = 700)
+ 
+  st.subheader("Decision Tree Results")
+  st.image("Decision_Tree.png", width = 800)
   
   st.write("---------")
   
