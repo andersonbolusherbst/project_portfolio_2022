@@ -33,7 +33,7 @@ if option == "Machine Learning":
   st.write("")
   st.markdown("<h5 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long).</h5>", unsafe_allow_html=True)
   
-  st.write("---------"
+  st.write("---------")
   
   st.markdown("<h2 style='text-align: center; color: black;'>Data Gathering</h2>", unsafe_allow_html=True)
   st.write("")
