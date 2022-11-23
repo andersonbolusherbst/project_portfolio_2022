@@ -9,7 +9,7 @@ import requests
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
-  st.image("Website.png", width=800)
+  st.image("Website.png", width=900)
 
 with col2:
   st.write("")
