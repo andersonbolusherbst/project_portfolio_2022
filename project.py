@@ -49,7 +49,14 @@ if option == "Machine Learning":
      a = pd.read_csv("dog_data (1).csv")
      return a
     df = load_data()
-  
+    
+    
+    st.markdown(""" div.stButton > button:first-child {
+    background-color: #00cc00;color:white;font-size:20px;height:3em;width:30em;border-radius:10px 10px 10px 10px;
+    },""" unsafe_allow_html=True)
+    
+    
+
   with col3:
    st.write("")
   
