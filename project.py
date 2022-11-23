@@ -3,7 +3,9 @@ import pandas as pd
 import numpy as np
 import requests
 
-st.image("Website.png", width=1000, height=1500)
+from PIL import Image
+background = Image.open('Website.png')
+st.image(background, width=1920)
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
