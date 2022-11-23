@@ -7,19 +7,8 @@ option = st.sidebar.selectbox("HAB LABS Services", ( "Home", 'Analytics', 'Data 
 
 if option == "Home":
 
-  col1, col2, col3 = st.columns([1,1,1])
-
-  with col1:
-    st.image("Website.png", width=900)
-
-  with col2:
-    st.write("")
-
-  with col3:
-    st.write("")
-
-  st.markdown("<h1 style='text-align: center; color: black;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
-  st.markdown("<h2 style='text-align: center; color: black;'>Become data-driven today and scale your business.We take the time to understand your business and how data can help you to achieve your goals.</h2>", unsafe_allow_html=True)
+  st.markdown("<h1 style='text-align: center; color: blue;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
+  st.markdown("<h2 style='text-align: center; color: blue;'>Become data-driven today and scale your business.We take the time to understand your business and how data can help you to achieve your goals.</h2>", unsafe_allow_html=True)
 
 
 #if option == "Analytics":
