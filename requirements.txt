@@ -1,5 +1,11 @@
 streamlit
 pandas
 numpy
-requests
+pdfkit
+yfinance
 datetime
+currency-symbols
+matplotlib
+lxml
+requests
+json5
