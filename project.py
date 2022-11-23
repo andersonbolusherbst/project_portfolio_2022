@@ -31,7 +31,24 @@ if option == "Home":
   
 if option == "Machine Learning":
   st.markdown("<h1 style='text-align: center; color: black;'>PetTech Company</h1>", unsafe_allow_html=True)
-  st.markdown("<h3 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h3>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h3 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long) .</h3>", unsafe_allow_html=True)
-#if option == "Custom Web Apps":
+  st.markdown("<h4 style='text-align: left; color: black;'>For this project we were tasked with using the raw data from a 3-axis accelerometer and a 3-axis gyroscope to classify the postion of a dog.</h4>", unsafe_allow_html=True)
+  st.write("")
+  st.markdown("<h4 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long) .</h4>", unsafe_allow_html=True)
+  
+if st.button('Run Me'):
+    st.write('Why hello there')
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ #if option == "Custom Web Apps":
