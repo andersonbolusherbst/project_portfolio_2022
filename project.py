@@ -40,7 +40,7 @@ if option == "Machine Learning":
   st.markdown("<h5 style='text-align: left; color: black;'>A crucial part of any Machine Laerning Project is data.</h5>", unsafe_allow_html=True)
   st.write("")
   st.markdown("<h5 style='text-align: left; color: black;'>In this example we were able to obtain a publically available dataset (see link to paper). We went through the appropriate data cleaning methodology and arrived at our dataframe which you can see below.</h5>", unsafe_allow_html=True)
-  st.write(""
+  st.write("")
   st.markdown("<h5 style='text-align: left; color: black;'>We now had data with which to classify a dog into one of six positions (Sitting, Walking, Standing, Running, Lying down and Eating and drinking).</h5>", unsafe_allow_html=True)
   
   if st.button('Run Me and Explore Our Labelled Data Set'):
