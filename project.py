@@ -44,10 +44,10 @@ if option == "Machine Learning":
 
   with col2:
    if st.button('Run Me'):
-      @st.cache(allow_output_mutation=True)
-      def load_data():
-        a = pd.read_csv("dog_data (1).csv")
-      return a
+    @st.cache(allow_output_mutation=True)
+    def load_data():
+     a = pd.read_csv("dog_data (1).csv")
+     return a
     df = load_data()
     st.dataframe(df)
 
