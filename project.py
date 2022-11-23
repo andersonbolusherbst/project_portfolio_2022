@@ -5,7 +5,7 @@ import requests
 
 from PIL import Image
 background = Image.open('Website.png')
-st.image(background, width=1920)
+st.image(background, width=750)
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
