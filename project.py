@@ -22,4 +22,11 @@ st.markdown("<h2 style='text-align: center; color: black;'>Become data-driven to
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
-#if option == "Machine Learning":
+#if option == "Analytics":
+  
+#if option == "Data Infrastructure:
+  
+if option == "Machine Learning":
+  st.write("Start of ML")
+  
+#if option == "Custom Web Apps":
