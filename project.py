@@ -7,11 +7,4 @@ st.image("Website.png")
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
-if option == "Machine Learning":
-  
-  
-
-
- 
-
-
+#if option == "Machine Learning":
