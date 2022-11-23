@@ -62,11 +62,11 @@ if option == "Machine Learning":
 
   with col4:
     st.subheader("XGBoost Model Results")
-    st.image("XGBoost.png", width = 500)
+    st.image("XGBoost.png", width = 700)
 
   with col5:
     st.subheader("Decision Tree Results")
-    st.image("Decision_Tree.png", width = 500)
+    st.image("Decision_Tree.png", width = 700)
   
   st.write("---------")
   
