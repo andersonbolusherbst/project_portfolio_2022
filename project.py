@@ -66,7 +66,7 @@ if option == "Machine Learning":
 
   with col5:
     st.subheader("Decision Tree Results")
-    st.image("Decision_Tree.png" width = 500)
+    st.image("Decision_Tree.png", width = 500)
   
   st.write("---------")
   
