@@ -5,6 +5,6 @@ import requests
 
 st.image("Website.png")
 
-option = st.sidebar.selectbox("HAB LABS Services", ('Start Here','Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
+option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
 
