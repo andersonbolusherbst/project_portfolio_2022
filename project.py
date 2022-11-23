@@ -61,7 +61,7 @@ if option == "Machine Learning":
   col4, col5 = st.columns([1,1])
 
   with col4:
-    st.image("XGboost.png)
+    st.image("XGboost.png")
 
   with col2:
     st.image("Decision_Tree.png")
