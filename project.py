@@ -43,6 +43,8 @@ if st.button('Run Me'):
   return a
  df = load_data()
  st.dataframe(df)
+
+st.markdown("![Foo](https://colab.research.google.com/drive/1sjGgWWfqmBHteGup-PGr0A4XKCkhl8ZR#scrollTo=nt78rXV1zrMn&line=1&uniqifier=1")
     
   
   
