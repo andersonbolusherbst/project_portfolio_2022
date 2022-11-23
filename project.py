@@ -12,13 +12,13 @@ with col1:
   st.image("Website.png", width=900)
 
 with col2:
-  st.header("WE HELP COMPANIES GROW")
-  st.write("Become data-driven today and scale your business.We take the time to understand your business and how data can help you to achieve your goals.")
+  st.write("")
 
 with col3:
   st.write("")
-  
-  
+
+st.markdown("<h1 style='text-align: center; color: black;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>Become data-driven today and scale your business.We take the time to understand your business and how data can help you to achieve your goals.</h2>", unsafe_allow_html=True)
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
