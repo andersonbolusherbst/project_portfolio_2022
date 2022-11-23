@@ -35,7 +35,7 @@ if option == "Machine Learning":
   
   st.write("---------"
   
-  st.markdown("<h2 style='text-align: center; color: black;'>Data Gathering</h1>", unsafe_allow_html=True)
+  st.markdown("<h2 style='text-align: center; color: black;'>Data Gathering</h2>", unsafe_allow_html=True)
   st.write("")
   st.markdown("<h5 style='text-align: left; color: black;'>A crucial part of any Machine Laerning Project is data.</h5>", unsafe_allow_html=True)
   st.write("")
