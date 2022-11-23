@@ -36,13 +36,25 @@ if option == "Machine Learning":
   st.write("")
   st.markdown("<h4 style='text-align: left; color: black;'>For this use case our algorithim was required to be embedded on a device worn around the dogs neck from which various outputs would alert the dogs owner to any abnormal behaiviour (i.e Lying on side for too long) .</h4>", unsafe_allow_html=True)
   
-if st.button('Run Me'):
-  @st.cache(allow_output_mutation=True)
-  def load_data():
-    a = pd.read_csv("dog_data (1).csv")
-    return a
-  df = load_data()
-  st.dataframe(df)
+
+col1, col2, col3 = st.columns([1,1,1])
+
+ with col1:
+   st.write("")
+
+ with col2:
+   if st.button('Run Me'):
+      @st.cache(allow_output_mutation=True)
+      def load_data():
+        a = pd.read_csv("dog_data (1).csv")
+      return a
+    df = load_data()
+    st.dataframe(df)
+
+ with col3:
+   st.write("") 
+  
+
   
   
   
