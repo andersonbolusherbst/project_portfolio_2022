@@ -9,13 +9,13 @@ background = Image.open('Website.png')
 col1, col2, col3 = st.beta_columns([1,6,1])
 
 with col1:
-st.image(background, width=1000)
+  st.image(background, width=1000)
 
 with col2:
-st.write("")
+  st.write("")
 
 with col3:
-st.write("")
+  st.write("")
 
 option = st.sidebar.selectbox("HAB LABS Services", ('Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
