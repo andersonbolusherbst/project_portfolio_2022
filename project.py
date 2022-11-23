@@ -41,7 +41,8 @@ if st.button('Run Me'):
   def load_data():
     a = pd.read_csv("dog_data.csv")
     return a
-  df = load_data() 
+  df = load_data()
+  st.dataframe(df)
   
   
   
