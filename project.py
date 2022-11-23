@@ -51,9 +51,14 @@ if option == "Machine Learning":
     df = load_data()
     
     
-    st.markdown(""" div.stButton > button:first-child {
-    background-color: #00cc00;color:white;font-size:20px;height:3em;width:30em;border-radius:10px 10px 10px 10px;
-    }""", unsafe_allow_html=True)
+    m = st.markdown("""
+    <style>
+    div.stButton > button:first-child {
+    background-color: rgb(204, 49, 49);
+    }
+    </style>""", unsafe_allow_html=True)
+
+    b = st.button("test")
     
     
 
