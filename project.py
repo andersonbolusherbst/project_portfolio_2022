@@ -22,7 +22,6 @@ if option == "Home":
   st.write("")
   st.markdown("<h4 style='text-align: center; color: black;'>Welcome to the HAB LABS Digital Portfolio.</h4>", unsafe_allow_html=True)
 
-
 #if option == "Analytics":
   
 #if option == "Data Infrastructure:
@@ -91,23 +90,8 @@ if option == "Machine Learning":
   
   st.markdown("<h2 style='text-align: center; color: black;'>Video Walkthrough</h2>", unsafe_allow_html=True) 
 
-  st.write("---------")  
-  
-  
- 
-  
+  st.write("Check out our work here [link](https://colab.research.google.com/drive/1sjGgWWfqmBHteGup-PGr0A4XKCkhl8ZR?hl=en#scrollTo=xG55BCrpIwqk)")
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  st.write("---------")  
   
  #if option == "Custom Web Apps":
