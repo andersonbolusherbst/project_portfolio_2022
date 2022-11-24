@@ -55,6 +55,7 @@ if option == "Machine Learning":
     st.dataframe(df)
     
   st.markdown("<h2 style='text-align: center; color: black;'>Model Selection</h2>", unsafe_allow_html=True)
+  st.image("machine-learning-cheet-sheet-2.png", width = 800, caption = "Due to the nature of this project (High-level of accuracy in classification required) we chose the XGBoost and Decision Tree Models")
   
   st.write("---------")
   
