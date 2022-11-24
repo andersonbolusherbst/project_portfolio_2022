@@ -3,10 +3,6 @@ import pandas as pd
 import numpy as np
 import requests
 
-[theme]
-base="dark"
-primaryColor="purple"
-
 option = st.sidebar.selectbox("HAB LABS Services", ( "Home", 'Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
 if option == "Home":
