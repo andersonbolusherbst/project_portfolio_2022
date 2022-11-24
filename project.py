@@ -6,10 +6,10 @@ import requests
 option = st.sidebar.selectbox("HAB LABS Services", ( "Home", 'Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
 if option == "Home":
-  st.image("HAB LABS.png")
+  st.image("HAB LABS.png", width = 700)
   st.markdown("<h1 style='text-align: center; color: blue;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
   st.write("")
-  st.markdown("<h4 style='text-align: center; color: blue;'>Become data-driven today and scale your business.We take the time to understand your business and how data can help you to achieve your goals.</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: center; color: blue;'>Welcome to the HAB LABS Digital Portfolio.</h4>", unsafe_allow_html=True)
 
 
 #if option == "Analytics":
