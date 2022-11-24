@@ -59,7 +59,17 @@ if option == "Machine Learning":
   
   
   st.markdown("<h2 style='text-align: center; color: black;'>Model Outcomes</h2>", unsafe_allow_html=True)
+  st.markdown("<h3 stayle='text-align: center; color: black;'>A Classification report is used to measure the quality of predictions from a classification algorithm. How many predictions are True and how many are False. More specifically, True Positives, False Positives, True negatives and False Negatives are used to predict the metrics of a classification report as shown below.</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 style='text-align: center; color: black;'>🎯 Precision – What percent of your predictions were correct?</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 style='text-align: center; color: black;'>🎯 Recall – What percent of the positive cases did you catch?</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 style='text-align: center; color: black;'>🎯 F1 score – What percent of positive predictions were correct?</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 style='text-align: center; color: black;'>🎯 Support - How many predictions in each case</h3>", unsafe_allow_html=True)
+
+  st.write("")
   st.markdown("<h3 style='text-align: center; color: black;'>XGBoost Model Results</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 style='text-align: center; color: black;'>The results after using the XGBoost Algorithm can be seen below. Overall accuracy 83%.</h3>", unsafe_allow_html=True)
+  
+   
   
   st.image("XGBoost Classification Report.png", width = 800)
   st.image("XGBoost.png", width = 800)
