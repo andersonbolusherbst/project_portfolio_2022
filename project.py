@@ -61,12 +61,13 @@ if option == "Machine Learning":
   st.markdown("<h2 style='text-align: center; color: black;'>Model Outcomes</h2>", unsafe_allow_html=True)
   st.markdown("<h4 style='text-align: center; color: black;'>XGBoost Model Results</h4>", unsafe_allow_html=True)
   
-  
+  st.image("XGBoost Classification Report.png", width = 800)
   st.image("XGBoost.png", width = 800)
 
  
   st.markdown("<h4 style='text-align: center; color: black;'>Decision Tree Model Results</h4>", unsafe_allow_html=True)
   
+  st.image("Decision Tree Classification Report.png", width = 800)
   st.image("Decision_Tree.png", width = 800)
   
   st.write("---------")
