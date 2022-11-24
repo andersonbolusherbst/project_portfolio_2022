@@ -21,6 +21,7 @@ if option == "Home":
   st.markdown("<h1 style='text-align: center; color: black;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
   st.write("")
   st.markdown("<h4 style='text-align: center; color: black;'>Welcome to the HAB LABS Digital Portfolio.</h4>", unsafe_allow_html=True)
+  st.image("Team Mugshot.png", width = 750)
 
 #if option == "Analytics":
   
