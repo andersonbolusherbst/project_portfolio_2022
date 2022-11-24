@@ -55,7 +55,7 @@ if option == "Machine Learning":
     st.dataframe(df)
     
   st.markdown("<h2 style='text-align: center; color: black;'>Model Selection</h2>", unsafe_allow_html=True)
-  st.image("machine-learning-cheet-sheet-2.png", width = 600, caption = "Due to the nature of this project (High-level of accuracy in classification required) we chose the XGBoost and Decision Tree Models")
+  st.image("machine-learning-cheet-sheet-2.png", width = 700, caption = "Due to the nature of this project (High-level of accuracy in classification required) we chose the XGBoost and Decision Tree Models")
   
   st.write("---------")
   
@@ -75,7 +75,7 @@ if option == "Machine Learning":
    
   
   st.image("XGBoost Classification Report.png", width = 800)
-  st.image("XGBoost.png", width = 600)
+  st.image("XGBoost.png", width = 700)
 
  
   st.markdown("<h3 style='text-align: center; color: black;'>Decision Tree Model Results</h3>", unsafe_allow_html=True)
@@ -83,7 +83,7 @@ if option == "Machine Learning":
   st.markdown("<h4 style='text-align: left; color: black;'>The results after using the Decision Tree Algorithm can be seen below. Overall accuracy 87%. We selected this model for reasons explained below</h4>", unsafe_allow_html=True)
   
   st.image("Decision Tree Classification Report.png", width = 800)
-  st.image("Decision_Tree.png", width = 600)
+  st.image("Decision_Tree.png", width = 700)
   
   st.write("---------")
   
