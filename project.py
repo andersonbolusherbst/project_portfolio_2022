@@ -95,7 +95,7 @@ if option == "Machine Learning":
 
   st.write("---------")  
   
- if option == "Custom Web Apps":
+if option == "Custom Web Apps":
   #top image
     st.image("thin.png")
     #link back to website
