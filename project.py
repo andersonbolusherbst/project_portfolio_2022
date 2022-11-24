@@ -59,7 +59,8 @@ if option == "Machine Learning":
   
   
   st.markdown("<h2 style='text-align: center; color: black;'>Model Outcomes</h2>", unsafe_allow_html=True)
-  st.markdown("<h3 stayle='text-align: left; color: black;'>A Classification report is used to measure the quality of predictions from a classification algorithm. How many predictions are True and how many are False. More specifically, True Positives, False Positives, True negatives and False Negatives are used to predict the metrics of a classification report as shown below.</h3>", unsafe_allow_html=True)
+  st.markdown("<h3 stayle='text-align: left; color: black;'>A Classification report is used to measure the quality of predictions from a classification algorithm. How many predictions are True and how many are False.</h3>", unsafe_allow_html=True) 
+  st.markdown("<h3 stayle='text-align: left; color: black;'>More specifically, True Positives, False Positives, True negatives and False Negatives are used to predict the metrics of a classification report as shown below.</h3>", unsafe_allow_html=True)
   st.markdown("<h4 style='text-align: left; color: black;'>🎯 Precision – What percent of your predictions were correct?</h4>", unsafe_allow_html=True)
   st.markdown("<h4 style='text-align: left; color: black;'>🎯 Recall – What percent of the positive cases did you catch?</h4>", unsafe_allow_html=True)
   st.markdown("<h4 style='text-align: left; color: black;'>🎯 F1 score – What percent of positive predictions were correct?</h4>", unsafe_allow_html=True)
@@ -67,7 +68,7 @@ if option == "Machine Learning":
 
   st.write("")
   st.markdown("<h3 style='text-align: center; color: black;'>XGBoost Model Results</h3>", unsafe_allow_html=True)
-  st.markdown("<h3 style='text-align: left; color: black;'>The results after using the XGBoost Algorithm can be seen below. Overall accuracy 83%.</h3>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the XGBoost Algorithm can be seen below. Overall accuracy 83%.</h4>", unsafe_allow_html=True)
   
    
   
@@ -76,6 +77,8 @@ if option == "Machine Learning":
 
  
   st.markdown("<h3 style='text-align: center; color: black;'>Decision Tree Model Results</h3>", unsafe_allow_html=True)
+  
+  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the Decision Tree Algorithm can be seen below. Overall accuracy 87%. We selected this model for reasons explained below</h4>", unsafe_allow_html=True)
   
   st.image("Decision Tree Classification Report.png", width = 800)
   st.image("Decision_Tree.png", width = 800)
