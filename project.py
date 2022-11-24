@@ -8,8 +8,8 @@ option = st.sidebar.selectbox("HAB LABS Services", ( "Home", 'Analytics', 'Data 
 st.markdown(
     """
 <style>
-.sidebar .sidebar-content {
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+.#root > div:nth-child(1) > div.withScreencast > div > div > div > section.css-163ttbj.e1fqkh3o11 {
+    background-image: linear-gradient(#ffffff,#29abe2);
     color: white;
 }
 </style>
