@@ -87,7 +87,13 @@ if option == "Machine Learning":
   
   st.write("---------")
   
-  st.markdown("<h2 style='text-align: center; color: black;'>Challenges</h2>", unsafe_allow_html=True)  
+  st.markdown("<h2 style='text-align: center; color: black;'>Challenges</h2>", unsafe_allow_html=True) 
+    
+  st.markdown("<h4 style='text-align: left; color: black;'>❓ Speed – As we used the python ecosystem for our algorithms we needed to convert our decision tree into C so that it could run more effectively on device?</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>❓ Memory – Another constraint was the memory of the device on which our model needed to run. We needed to simplify our DT model using max_depth to solve this issue</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>❓ Data Collection – Labelled video data of dogs in different positions proved difficult and time consuming to create. We addressed this by sourcing trained dogs and following a strict data collection methodology</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>❓ Positions - As we needed to classify the dog in several different positions, we needed to use filters to stop the readings from the device resulting in the over classification of certain positions</h4>", unsafe_allow_html=True)
+
   
   st.write("---------")
   
