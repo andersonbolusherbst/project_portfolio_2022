@@ -69,8 +69,8 @@ if option == "Machine Learning":
   st.markdown("<h4 style='text-align: left; color: black;'>🎯 Support - How many predictions in each case</h4>", unsafe_allow_html=True)
 
   st.write("")
-  st.markdown("<h3 style='text-align: center; color: black;'>XGBoost Model Results</h3>", unsafe_allow_html=True)
-  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the XGBoost Algorithm can be seen below. **Overall accuracy 83%**.</h4>", unsafe_allow_html=True)
+  st.markdown("<h2 style='text-align: center; color: black;'>XGBoost Model Results</h2>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the XGBoost Algorithm can be seen below. Overall accuracy 83%.</h4>", unsafe_allow_html=True)
   
    
   
@@ -78,8 +78,8 @@ if option == "Machine Learning":
   st.image("XGBoost.png", width = 700)
 
  
-  st.markdown("<h3 style='text-align: center; color: black;'<u>Decision Tree Model Results</u></h3>", unsafe_allow_html=True)
-#<u>this is underlined text in HTML or markdown, which accepts HTML</u>
+  st.markdown("<h2 style='text-align: center; color: black;'>Decision Tree Model Results</h2>", unsafe_allow_html=True)
+
   
   st.markdown("<h4 style='text-align: left; color: black;'>The results after using the Decision Tree Algorithm can be seen below. <strong>Overall accuracy 87%<strong>. We selected this model due to its advantages in SPEED and ACCURACY.</h4>", unsafe_allow_html=True)
   
