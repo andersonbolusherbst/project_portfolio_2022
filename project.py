@@ -46,15 +46,15 @@ if option == "Machine Learning":
   st.write("")
   st.markdown("<h5 style='text-align: left; color: black;'>We now had data with which to classify a dog into one of six positions (Sitting, Walking, Standing, Running, Lying down and Eating and drinking).</h5>", unsafe_allow_html=True)
   
-  if st.button('Run Me and Explore Our Labelled Data Set'):
-    @st.cache(allow_output_mutation=True)
-    def load_data():
-      a = pd.read_csv("dog_data (1).csv")
-      st.checkbox("Use container width", value=False, key="use_container_width")
-      return a
+  
+  @st.cache(allow_output_mutation=True)
+  def load_data():
+   a = pd.read_csv("dog_data (1).csv")
+   return a
     
-    df = load_data()
-    st.dataframe(df, use_container_width=st.session_state.use_container_width)
+  df = load_data()
+  st.checkbox("Use container width", value=False, key="use_container_width")  
+  st.dataframe(df, use_container_width=st.session_state.use_container_width)
     
   st.markdown("<h2 style='text-align: center; color: black;'>Model Selection</h2>", unsafe_allow_html=True)
   st.image("machine-learning-cheet-sheet-2.png", width = 700, caption = "Due to the nature of this project (High-level of accuracy in classification required) we chose the XGBoost and Decision Tree Models")
