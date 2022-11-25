@@ -53,7 +53,7 @@ if option == "Machine Learning":
    return a
     
   df = load_data()
-  st.checkbox("Use container width", value=False, key="use_container_width")  
+  #st.checkbox("Use container width", value=False, key="use_container_width")  
   st.dataframe(df, use_container_width=st.session_state.use_container_width)
  
     
