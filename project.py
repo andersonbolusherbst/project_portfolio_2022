@@ -81,7 +81,7 @@ if option == "Machine Learning":
   st.markdown("<h3 style='text-align: center; color: black;'<u>Decision Tree Model Results</u></h3>", unsafe_allow_html=True)
 #<u>this is underlined text in HTML or markdown, which accepts HTML</u>
   
-  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the Decision Tree Algorithm can be seen below. **Overall accuracy 87%**. We selected this model due to its advantages in SPEED and ACCURACY.</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: left; color: black;'>The results after using the Decision Tree Algorithm can be seen below. <strong>Overall accuracy 87%<strong>. We selected this model due to its advantages in SPEED and ACCURACY.</h4>", unsafe_allow_html=True)
   
   st.image("Decision Tree Classification Report.png", width = 800)
   st.image("Decision_Tree.png", width = 700)
