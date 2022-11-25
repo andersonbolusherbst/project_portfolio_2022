@@ -52,7 +52,9 @@ if option == "Machine Learning":
       a = pd.read_csv("dog_data (1).csv")
       return a
     df = load_data()
-    st.dataframe(df)
+    st.checkbox("Use container width", value=False, key="use_container_width")
+
+    st.dataframe(df, use_container_width=st.session_state.use_container_width))
     
   st.markdown("<h2 style='text-align: center; color: black;'>Model Selection</h2>", unsafe_allow_html=True)
   st.image("machine-learning-cheet-sheet-2.png", width = 700, caption = "Due to the nature of this project (High-level of accuracy in classification required) we chose the XGBoost and Decision Tree Models")
