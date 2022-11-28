@@ -4,7 +4,7 @@ import numpy as np
 import requests
 import altair as alt
 
-option = st.sidebar.selectbox("HAB LABS Services", ( "Home", 'Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
+option = st.sidebar.selectbox("HAB LABS Services", ( "Home", "About", 'Analytics', 'Data Infrastructure','Machine Learning','Custom Web Apps'))
 
 st.markdown(
     """
@@ -22,7 +22,11 @@ if option == "Home":
   st.markdown("<h1 style='text-align: center; color: black;'>WE HELP COMPANIES GROW</h1>", unsafe_allow_html=True)
   st.write("")
   st.markdown("<h4 style='text-align: center; color: black;'>Welcome to the HAB LABS Digital Portfolio.</h4>", unsafe_allow_html=True)
+  
+
+if option == "About":
   st.image("Team Mugshot.png", width = 750)
+  
 
 #if option == "Analytics":
   
