@@ -112,6 +112,9 @@ if option == "Machine Learning":
   st.write("---------")  
   
 if option == "Custom Web Apps":
+    st.markdown("<h2 style='text-align: center; color: black;'>INVESTMENT GROWTH CALCULATOR</h2>", unsafe_allow_html=True)
+    st.write("")
+    st.markdown("<h4 style='text-align: center; color: black;'>For this project we were tasked with creating a simple, affordable investment calculator as a sales tool that could be embedded on a companies website.</h4>", unsafe_allow_html=True)
   #top image
     st.image("thin.png")
     #link back to website
