@@ -26,7 +26,13 @@ if option == "Home":
 
 if option == "About":
   st.image("Team Mugshot.png", width = 750)
-  
+  st.markdown("<h4 style='text-align: left; color: black;'>At our core we are a data consultancy that uses data tools and strategies deliver custom data solutions to your business problems.</h4>", unsafe_allow_html=True)
+  st.write("")            
+  st.markdown("<h4 style='text-align: left; color: black;'>We partner with you as your data team, take the time to understand your business and how data can help you to achieve your goals.</h4>", unsafe_allow_html=True)
+  st.write("")
+  st.markdown("<h4 style='text-align: left; color: black;'>We use business analysis techniques to determine the best solution to your problem. Examples of our typical solutions are executive dashboards, machine learning models, data infrastructure (databases, API connections, and cloud set up), and web applications.</h4>", unsafe_allow_html=True)
+  st.write("")
+  st.markdown("<h4 style='text-align: left; color: black;'>We are three friends who identified a worldwide need for data solutions at competitive prices without comprimising on quality. We decided to combine our backgrounds in Programming, Machine Learning, Finance and Economics to help build a team to meet this need.</h4>", unsafe_allow_html=True)
 
 #if option == "Analytics":
   
