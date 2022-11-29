@@ -10,4 +10,3 @@ lxml
 requests
 json5
 altair
-random
