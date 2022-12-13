@@ -38,7 +38,7 @@ if option == "Analytics":
     st.markdown("<h4 style='text-align: left; color: black;'>Breaking down Customer Acquisition Cost (CAC) to investigate marketing performance</h4>", unsafe_allow_html=True)
     st.write("")     
     st.markdown("""
-    <iframe src="https://datastudio.google.com/embed/reporting/f48f602f-2542-4ad6-ad15-f1bc9c6a6ff1/page/p_ex3znh92oc" width="800" height="800" frameborder="0" allowfullscreen="true"></iframe>
+    <iframe src="https://datastudio.google.com/embed/reporting/f48f602f-2542-4ad6-ad15-f1bc9c6a6ff1/page/p_ex3znh92oc" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
 """, unsafe_allow_html=True)
    
 #if option == "Data Infrastructure:
